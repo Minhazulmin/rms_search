@@ -19,3 +19,5 @@ Route::get('/', function () {
 
 Route::any('/search','UserController@search');
 Route::any('/search_By_number','UserController@search_By_number');
+Route::get('/add','UserController@add')->name('add');
+Route::post('/user/store','UserController@storeuser')->name('storeuser');

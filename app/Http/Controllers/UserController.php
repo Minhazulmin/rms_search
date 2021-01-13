@@ -56,4 +56,18 @@ class UserController extends Controller
          return view ('welcome')->withMessage('No Details found. Try to search again !'); 
     }
     }
+    public function add()
+    {
+        return view('addData');
+    }
+    public function storeuser(Request $request)
+    {
+    	$user_store = new User();
+		$user_store->name = $request->name;
+		$user_store->phone = $request->phone;
+		$user_store->address = $request->address;
+		$user_store->save();
+
+    	return response()->json($user_store);
+    }
 }
