@@ -20,7 +20,7 @@
 			{{ csrf_field() }}
 			<div class="input-group">
 				<input type="text" class="form-control" name="q"
-					placeholder="Search users">
+					placeholder="Search By users in capital letter Like'Minhaz' or Mirpur">
 					<button type="submit" class="btn btn-info">
 						Search
 					</button>
