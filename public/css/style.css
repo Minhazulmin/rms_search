@@ -1,0 +1,16 @@
+.mt-top-10{
+margin-top: 10%;
+}
+
+.bootstrap-tagsinput {
+ width: 100%;
+}
+.bootstrap-tagsinput .tag {
+    color: #fbfdfd!important;
+}
+.label-info{
+    background-color: #07b7da;
+    border-radius:20px;
+    padding: 3px;
+}
+/* for modal */
